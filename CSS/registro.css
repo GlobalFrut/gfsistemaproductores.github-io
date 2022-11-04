@@ -1,0 +1,873 @@
+body{
+    font-size: 100%;
+    
+}
+.letras{
+    font-size: 250%;
+    margin-left: 20%;
+    position: absolute;
+    margin-top: 10%;
+    color: #0c6846;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.letras2{
+    font-size: 80%;
+    margin-left: 20%;
+    position: absolute;
+    margin-top: 13.5%;
+    color: #0c991f;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cabeza{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 12%;
+    box-shadow: 10px 5px 5px rgb(204, 200, 200);
+}
+.imagen{
+    width: 15%;
+    height: 25%;
+    margin-left: 10%;
+}
+.panel{
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    height: 550px;
+    margin-left: 42%;
+    margin-top: 5%;
+    
+}
+.insert{
+    margin-left: 30%;
+    background-color: beige;
+    height: 29.6px;
+    width: 500px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    font-size: 15px;
+    margin-top: 14.8px;
+    
+}
+.insert2{
+    height: 35.2px;
+    width: 508.7px;
+    margin-left: 30%;
+    margin-top: 15.3px;
+    background-color: beige;
+    
+}
+
+.insert22{
+    height: 30.5px;
+    width: 500px;
+    margin-left: 30%;
+    margin-top: 14.2px;
+    background-color: beige;
+    
+}
+.correo2{
+    width: 35.2px;
+    height: 35.2px;
+    position: absolute;
+    margin-left: 148px;
+    margin-top: 0.78%;
+}
+
+.correo{
+    width: 35.2px;
+    height: 35.2px;
+    position: absolute;
+    margin-left: 148px;
+    margin-top: 0.78%;
+}
+.telefono{
+    width: 35.2px;
+    height: 35.2px;
+    position: absolute;
+    margin-left: 148px;
+    margin-top: 0.78%;  
+}
+.usuarios{
+    width: 35.2px;
+    height: 35.2px;
+    position: absolute;
+    margin-left: 148px;
+    margin-top: 0.8%;
+}
+.Blog{
+    position: relative;
+	display: block;
+	padding: 5px 250px;
+	border-radius: 6px;
+	font-weight: bold;
+	max-width: 320px;
+	height: 34px;
+	margin-bottom: 60px;
+	overflow: hidden;
+	color:rgba(255,255,255,1);
+	cursor: pointer;
+	box-shadow:inset 0 0 0 1px rgba(0,0,0,0.1);
+	text-decoration: none;
+	transition: all ease 0.5s;
+	background:#2fa155;
+    margin-left: 28%;
+    text-align: 10%;
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top: 6%;
+}
+.Blog:after,.Blog:before{
+	width: 80px;
+	height: 200px;
+	content: '';
+	display: block;
+	background: rgba(255,255,255,0.5);
+	transform: rotate(45deg);
+	top: -60px;
+	position: absolute;
+	transition: none;
+	right:-45%;
+	cursor: pointer;
+
+}
+.Blog:before{
+	left: -48%;
+}
+.Blog:hover{
+    text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+	background:#0c6846
+}
+.Blog:hover:after,.Blog:hover::before{
+	transform: rotate(45deg), scaleX(130%);
+	background: rgba(255,255,255,0.1);
+	transition: all ease 0.5s;
+}
+.Blog:hover:after{
+    right: 130%;
+}
+.Blog:hover:before{
+    left: 130%;
+}
+.Breg{
+    background-color: brown;
+    width: 90px;
+    height: 40px;
+    margin-left: 5px; 
+  
+}
+
+.Blog2{
+    position: relative;
+	display: block;
+	padding: 5px 202px;
+	border-radius: 6px;
+	font-weight: bold;
+	max-width: 320px;
+	height: 32px;
+	margin-bottom: 60px;
+	overflow: hidden;
+	color:rgba(255,255,255,1);
+	cursor: pointer;
+	box-shadow:inset 0 0 0 1px rgba(0,0,0,0.1);
+	text-decoration: none;
+	transition: all ease 0.5s;
+	background:#b40c0c;
+    margin-left: 54%;
+    text-align: left;
+    margin-top: -10px;
+    letter-spacing: 2px;
+    
+
+}
+.Blog2:after,.Blog:before{
+	width: 80px;
+	height: 200px;
+	content: '';
+	display: block;
+	background: rgba(255,255,255,0.5);
+	transform: rotate(45deg);
+	top: -60px;
+	position: absolute;
+	transition: none;
+	right:-45%;
+	cursor: pointer;
+
+}
+.Blog2:before{
+	left: -48%;
+}
+.Blog2:hover{
+    text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+	background:#0c6846
+}
+.Blog2:hover:after,.Blog:hover::before{
+	transform: rotate(45deg), scaleX(130%);
+	background: rgba(255,255,255,0.1);
+	transition: all ease 0.5s;
+}
+.Blog2:hover:after{
+    right: 130%;
+}
+.Blog2:hover:before{
+    left: 130%;
+}
+.B2reg{
+    background-color: brown;
+    width: 90px;
+    height: 40px;
+    margin-left: 5px; 
+}body{
+    font-size: 100%;
+    
+}
+.letras{
+    font-size: 250%;
+    margin-left: 20%;
+    position: absolute;
+    margin-top: 10%;
+    color: #0c6846;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.letras2{
+    font-size: 80%;
+    margin-left: 20%;
+    position: absolute;
+    margin-top: 13.5%;
+    color: #0c991f;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cabeza{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 12%;
+    box-shadow: 10px 5px 5px rgb(204, 200, 200);
+}
+.imagen{
+    width: 15%;
+    height: 25%;
+    margin-left: 10%;
+}
+.panel{
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    height: 550px;
+    margin-left: 42%;
+    margin-top: 5%;
+    
+}
+.insert{
+    margin-left: 30%;
+    background-color: beige;
+    height: 29.6px;
+    width: 500px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    font-size: 15px;
+    margin-top: 14.8px;
+    
+}
+.insert2{
+    height: 35.2px;
+    width: 508.7px;
+    margin-left: 30%;
+    margin-top: 15.3px;
+    background-color: beige;
+    
+}
+
+.insert22{
+    height: 30.5px;
+    width: 500px;
+    margin-left: 30%;
+    margin-top: 14.2px;
+    background-color: beige;
+    
+}
+.correo2{
+    width: 35.2px;
+    height: 35.2px;
+    position: absolute;
+    margin-left: 148px;
+    margin-top: 0.78%;
+}
+
+.correo{
+    width: 35.2px;
+    height: 35.2px;
+    position: absolute;
+    margin-left: 148px;
+    margin-top: 0.78%;
+}
+.telefono{
+    width: 35.2px;
+    height: 35.2px;
+    position: absolute;
+    margin-left: 148px;
+    margin-top: 0.78%;  
+}
+.usuarios{
+    width: 35.2px;
+    height: 35.2px;
+    position: absolute;
+    margin-left: 148px;
+    margin-top: 0.8%;
+}
+.Blog{
+    position: relative;
+	display: block;
+	padding: 5px 250px;
+	border-radius: 6px;
+	font-weight: bold;
+	max-width: 320px;
+	height: 34px;
+	margin-bottom: 60px;
+	overflow: hidden;
+	color:rgba(255,255,255,1);
+	cursor: pointer;
+	box-shadow:inset 0 0 0 1px rgba(0,0,0,0.1);
+	text-decoration: none;
+	transition: all ease 0.5s;
+	background:#2fa155;
+    margin-left: 28%;
+    text-align: 10%;
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top: 6%;
+}
+.Blog:after,.Blog:before{
+	width: 80px;
+	height: 200px;
+	content: '';
+	display: block;
+	background: rgba(255,255,255,0.5);
+	transform: rotate(45deg);
+	top: -60px;
+	position: absolute;
+	transition: none;
+	right:-45%;
+	cursor: pointer;
+
+}
+.Blog:before{
+	left: -48%;
+}
+.Blog:hover{
+    text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+	background:#0c6846
+}
+.Blog:hover:after,.Blog:hover::before{
+	transform: rotate(45deg), scaleX(130%);
+	background: rgba(255,255,255,0.1);
+	transition: all ease 0.5s;
+}
+.Blog:hover:after{
+    right: 130%;
+}
+.Blog:hover:before{
+    left: 130%;
+}
+.Breg{
+    background-color: brown;
+    width: 90px;
+    height: 40px;
+    margin-left: 5px; 
+  
+}
+
+.Blog2{
+    position: relative;
+	display: block;
+	padding: 5px 202px;
+	border-radius: 6px;
+	font-weight: bold;
+	max-width: 320px;
+	height: 32px;
+	margin-bottom: 60px;
+	overflow: hidden;
+	color:rgba(255,255,255,1);
+	cursor: pointer;
+	box-shadow:inset 0 0 0 1px rgba(0,0,0,0.1);
+	text-decoration: none;
+	transition: all ease 0.5s;
+	background:#b40c0c;
+    margin-left: 54%;
+    text-align: left;
+    margin-top: -10px;
+    letter-spacing: 2px;
+    
+
+}
+.Blog2:after,.Blog:before{
+	width: 80px;
+	height: 200px;
+	content: '';
+	display: block;
+	background: rgba(255,255,255,0.5);
+	transform: rotate(45deg);
+	top: -60px;
+	position: absolute;
+	transition: none;
+	right:-45%;
+	cursor: pointer;
+
+}
+.Blog2:before{
+	left: -48%;
+}
+.Blog2:hover{
+    text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+	background:#0c6846
+}
+.Blog2:hover:after,.Blog:hover::before{
+	transform: rotate(45deg), scaleX(130%);
+	background: rgba(255,255,255,0.1);
+	transition: all ease 0.5s;
+}
+.Blog2:hover:after{
+    right: 130%;
+}
+.Blog2:hover:before{
+    left: 130%;
+}
+.B2reg{
+    background-color: brown;
+    width: 90px;
+    height: 40px;
+    margin-left: 5px; 
+}body{
+    font-size: 100%;
+    
+}
+.letras{
+    font-size: 250%;
+    margin-left: 20%;
+    position: absolute;
+    margin-top: 10%;
+    color: #0c6846;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.letras2{
+    font-size: 80%;
+    margin-left: 20%;
+    position: absolute;
+    margin-top: 13.5%;
+    color: #0c991f;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cabeza{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 12%;
+    box-shadow: 10px 5px 5px rgb(204, 200, 200);
+}
+.imagen{
+    width: 15%;
+    height: 25%;
+    margin-left: 10%;
+}
+.panel{
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    height: 550px;
+    margin-left: 42%;
+    margin-top: 5%;
+    
+}
+.insert{
+    margin-left: 30%;
+    background-color: beige;
+    height: 29.6px;
+    width: 500px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    font-size: 15px;
+    margin-top: 14.8px;
+    
+}
+.insert2{
+    height: 35.2px;
+    width: 508.7px;
+    margin-left: 30%;
+    margin-top: 15.3px;
+    background-color: beige;
+    
+}
+
+.insert22{
+    height: 30.5px;
+    width: 500px;
+    margin-left: 30%;
+    margin-top: 14.2px;
+    background-color: beige;
+    
+}
+.correo2{
+    width: 35.2px;
+    height: 35.2px;
+    position: absolute;
+    margin-left: 148px;
+    margin-top: 0.78%;
+}
+
+.correo{
+    width: 35.2px;
+    height: 35.2px;
+    position: absolute;
+    margin-left: 148px;
+    margin-top: 0.78%;
+}
+.telefono{
+    width: 35.2px;
+    height: 35.2px;
+    position: absolute;
+    margin-left: 148px;
+    margin-top: 0.78%;  
+}
+.usuarios{
+    width: 35.2px;
+    height: 35.2px;
+    position: absolute;
+    margin-left: 148px;
+    margin-top: 0.8%;
+}
+.Blog{
+    position: relative;
+	display: block;
+	padding: 5px 250px;
+	border-radius: 6px;
+	font-weight: bold;
+	max-width: 320px;
+	height: 34px;
+	margin-bottom: 60px;
+	overflow: hidden;
+	color:rgba(255,255,255,1);
+	cursor: pointer;
+	box-shadow:inset 0 0 0 1px rgba(0,0,0,0.1);
+	text-decoration: none;
+	transition: all ease 0.5s;
+	background:#2fa155;
+    margin-left: 28%;
+    text-align: 10%;
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top: 6%;
+}
+.Blog:after,.Blog:before{
+	width: 80px;
+	height: 200px;
+	content: '';
+	display: block;
+	background: rgba(255,255,255,0.5);
+	transform: rotate(45deg);
+	top: -60px;
+	position: absolute;
+	transition: none;
+	right:-45%;
+	cursor: pointer;
+
+}
+.Blog:before{
+	left: -48%;
+}
+.Blog:hover{
+    text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+	background:#0c6846
+}
+.Blog:hover:after,.Blog:hover::before{
+	transform: rotate(45deg), scaleX(130%);
+	background: rgba(255,255,255,0.1);
+	transition: all ease 0.5s;
+}
+.Blog:hover:after{
+    right: 130%;
+}
+.Blog:hover:before{
+    left: 130%;
+}
+.Breg{
+    background-color: brown;
+    width: 90px;
+    height: 40px;
+    margin-left: 5px; 
+  
+}
+
+.Blog2{
+    position: relative;
+	display: block;
+	padding: 5px 202px;
+	border-radius: 6px;
+	font-weight: bold;
+	max-width: 320px;
+	height: 32px;
+	margin-bottom: 60px;
+	overflow: hidden;
+	color:rgba(255,255,255,1);
+	cursor: pointer;
+	box-shadow:inset 0 0 0 1px rgba(0,0,0,0.1);
+	text-decoration: none;
+	transition: all ease 0.5s;
+	background:#b40c0c;
+    margin-left: 54%;
+    text-align: left;
+    margin-top: -10px;
+    letter-spacing: 2px;
+    
+
+}
+.Blog2:after,.Blog:before{
+	width: 80px;
+	height: 200px;
+	content: '';
+	display: block;
+	background: rgba(255,255,255,0.5);
+	transform: rotate(45deg);
+	top: -60px;
+	position: absolute;
+	transition: none;
+	right:-45%;
+	cursor: pointer;
+
+}
+.Blog2:before{
+	left: -48%;
+}
+.Blog2:hover{
+    text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+	background:#0c6846
+}
+.Blog2:hover:after,.Blog:hover::before{
+	transform: rotate(45deg), scaleX(130%);
+	background: rgba(255,255,255,0.1);
+	transition: all ease 0.5s;
+}
+.Blog2:hover:after{
+    right: 130%;
+}
+.Blog2:hover:before{
+    left: 130%;
+}
+.B2reg{
+    background-color: brown;
+    width: 90px;
+    height: 40px;
+    margin-left: 5px; 
+}body{
+    font-size: 100%;
+    
+}
+.letras{
+    font-size: 250%;
+    margin-left: 20%;
+    position: absolute;
+    margin-top: 10%;
+    color: #0c6846;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.letras2{
+    font-size: 80%;
+    margin-left: 20%;
+    position: absolute;
+    margin-top: 13.5%;
+    color: #0c991f;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cabeza{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 12%;
+    box-shadow: 10px 5px 5px rgb(204, 200, 200);
+}
+.imagen{
+    width: 15%;
+    height: 25%;
+    margin-left: 10%;
+}
+.panel{
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    height: 550px;
+    margin-left: 42%;
+    margin-top: 5%;
+    
+}
+.insert{
+    margin-left: 30%;
+    background-color: beige;
+    height: 29.6px;
+    width: 500px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    font-size: 15px;
+    margin-top: 14.8px;
+    
+}
+.insert2{
+    height: 35.2px;
+    width: 508.7px;
+    margin-left: 30%;
+    margin-top: 15.3px;
+    background-color: beige;
+    
+}
+
+.insert22{
+    height: 30.5px;
+    width: 500px;
+    margin-left: 30%;
+    margin-top: 14.2px;
+    background-color: beige;
+    
+}
+.correo2{
+    width: 35.2px;
+    height: 35.2px;
+    position: absolute;
+    margin-left: 148px;
+    margin-top: 0.78%;
+}
+
+.correo{
+    width: 35.2px;
+    height: 35.2px;
+    position: absolute;
+    margin-left: 148px;
+    margin-top: 0.78%;
+}
+.telefono{
+    width: 35.2px;
+    height: 35.2px;
+    position: absolute;
+    margin-left: 148px;
+    margin-top: 0.78%;  
+}
+.usuarios{
+    width: 35.2px;
+    height: 35.2px;
+    position: absolute;
+    margin-left: 148px;
+    margin-top: 0.8%;
+}
+.Blog{
+    position: relative;
+	display: block;
+	padding: 5px 250px;
+	border-radius: 6px;
+	font-weight: bold;
+	max-width: 320px;
+	height: 34px;
+	margin-bottom: 60px;
+	overflow: hidden;
+	color:rgba(255,255,255,1);
+	cursor: pointer;
+	box-shadow:inset 0 0 0 1px rgba(0,0,0,0.1);
+	text-decoration: none;
+	transition: all ease 0.5s;
+	background:#2fa155;
+    margin-left: 28%;
+    text-align: 10%;
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top: 6%;
+}
+.Blog:after,.Blog:before{
+	width: 80px;
+	height: 200px;
+	content: '';
+	display: block;
+	background: rgba(255,255,255,0.5);
+	transform: rotate(45deg);
+	top: -60px;
+	position: absolute;
+	transition: none;
+	right:-45%;
+	cursor: pointer;
+
+}
+.Blog:before{
+	left: -48%;
+}
+.Blog:hover{
+    text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+	background:#0c6846
+}
+.Blog:hover:after,.Blog:hover::before{
+	transform: rotate(45deg), scaleX(130%);
+	background: rgba(255,255,255,0.1);
+	transition: all ease 0.5s;
+}
+.Blog:hover:after{
+    right: 130%;
+}
+.Blog:hover:before{
+    left: 130%;
+}
+.Breg{
+    background-color: brown;
+    width: 90px;
+    height: 40px;
+    margin-left: 5px; 
+  
+}
+
+.Blog2{
+    position: relative;
+	display: block;
+	padding: 5px 202px;
+	border-radius: 6px;
+	font-weight: bold;
+	max-width: 320px;
+	height: 32px;
+	margin-bottom: 60px;
+	overflow: hidden;
+	color:rgba(255,255,255,1);
+	cursor: pointer;
+	box-shadow:inset 0 0 0 1px rgba(0,0,0,0.1);
+	text-decoration: none;
+	transition: all ease 0.5s;
+	background:#b40c0c;
+    margin-left: 54%;
+    text-align: left;
+    margin-top: -10px;
+    letter-spacing: 2px;
+    
+
+}
+.Blog2:after,.Blog:before{
+	width: 80px;
+	height: 200px;
+	content: '';
+	display: block;
+	background: rgba(255,255,255,0.5);
+	transform: rotate(45deg);
+	top: -60px;
+	position: absolute;
+	transition: none;
+	right:-45%;
+	cursor: pointer;
+
+}
+.Blog2:before{
+	left: -48%;
+}
+.Blog2:hover{
+    text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+	background:#0c6846
+}
+.Blog2:hover:after,.Blog:hover::before{
+	transform: rotate(45deg), scaleX(130%);
+	background: rgba(255,255,255,0.1);
+	transition: all ease 0.5s;
+}
+.Blog2:hover:after{
+    right: 130%;
+}
+.Blog2:hover:before{
+    left: 130%;
+}
+.B2reg{
+    background-color: brown;
+    width: 90px;
+    height: 40px;
+    margin-left: 5px; 
+}

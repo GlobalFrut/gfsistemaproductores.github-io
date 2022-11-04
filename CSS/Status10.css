@@ -1,0 +1,293 @@
+.img {
+    margin-top: -1%;
+    margin: -1% 43%;
+    padding: 0.1%;
+    width: 10%;
+    position: absolute;
+}
+
+.img2 {
+    margin-top: 35%;
+    margin-left: 36%;
+    padding: 2%;
+    width: 25%;
+    position: absolute;
+}
+
+.img3 {
+    margin-top: 19.39%;
+    margin-left: 23%;
+    padding: 1.8%;
+    width: 11.5%;
+    position: absolute;
+}
+
+.img5 {
+    margin-top: 18.6%;
+    margin-left: 25.2%;
+    padding: 1.5%;
+    width: 10%;
+    position: absolute;
+}
+
+.img4 {
+    margin-top: 18.8%;
+    margin-left: 62%;
+    padding: 2%;
+    width: 14%;
+    position: absolute;
+    background-color: #ffffff;
+}
+
+.imge {
+    margin-top: 31%;
+    margin-left: 45.5%;
+    padding: 0.5%;
+    width: 10%;
+    position: absolute;
+    background-color: #ffffff;
+}
+
+.salir {
+    margin-top: 25%;
+    margin-left: 80%;
+    padding: -1%;
+    width: 14%;
+    position: absolute;
+    background-color: #ffffff;
+}
+
+.FormBienvenida2 {
+    margin-left: 50%;
+    letter-spacing: 3px;
+    font-size: 300%;
+    margin-left: 38%;
+    width: 400px;
+    height: 400px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.F1 {
+    background-color: #07bb10;
+    text-align: justify;
+}
+
+.FormBienvenida {
+    background-color: #07bb10;
+    width: 100%;
+    height: 108px;
+    padding: 2px;
+    margin-top: 8%;
+    font-size: 300%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    text-size-adjust: initial;
+    position: absolute;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.Boton1 {
+    position: absolute;
+    display: block;
+    padding: 5px 25px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    max-width: 320px;
+    height: 40px;
+    margin-bottom: 60px;
+    overflow: hidden;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    letter-spacing: 2px;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    transition: all ease 0.5s;
+    background: #2fa155;
+    margin-top: 30%;
+}
+
+.Boton1:after,
+.Blog:before {
+    width: 80px;
+    height: 200px;
+    content: '';
+    display: block;
+    background: rgba(255, 255, 255, 0.5);
+    transform: rotate(45deg);
+    top: -60px;
+    position: absolute;
+    transition: none;
+    right: -45%;
+    cursor: pointer;
+}
+
+.Boton1:before {
+    left: -48%;
+}
+
+.Boton1:hover {
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    background: #07bb10;
+}
+
+.Boton1:hover:after,
+.Blog:hover::before {
+    transform: rotate(45deg), scaleX(130%);
+    background: rgba(255, 255, 255, 0.1);
+    transition: all ease 0.5s;
+}
+
+.Boton1:hover:after {
+    right: 130%;
+}
+
+.Boton1:hover:before {
+    left: 130%;
+}
+
+.Boton1 {
+    background-color: rgb(24, 69, 248);
+    width: 250px;
+    height: 50px;
+    margin: 30% 23.5%;
+}
+
+.Boton2 {
+    position: absolute;
+    display: block;
+    padding: 5px 25px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    max-width: 320px;
+    height: 40px;
+    margin-bottom: 60px;
+    overflow: hidden;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    letter-spacing: 2px;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    transition: all ease 0.5s;
+    background: #2fa155;
+    margin-top: 30%;
+}
+
+.Boton2:after,
+.Blog:before {
+    width: 80px;
+    height: 200px;
+    content: '';
+    display: block;
+    background: rgba(255, 255, 255, 0.5);
+    transform: rotate(45deg);
+    top: -60px;
+    position: absolute;
+    transition: none;
+    right: -45%;
+    cursor: pointer;
+}
+
+.Boton2:before {
+    left: -48%;
+}
+
+.Boton2:hover {
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    background: #07bb10;
+}
+
+.Boton2:hover:after,
+.Blog:hover::before {
+    transform: rotate(45deg), scaleX(130%);
+    background: rgba(255, 255, 255, 0.1);
+    transition: all ease 0.5s;
+}
+
+.Boton2:hover:after {
+    right: 130%;
+}
+
+.Boton2:hover:before {
+    left: 130%;
+}
+
+.Boton2 {
+    background-color: rgb(24, 69, 248);
+    width: 250px;
+    height: 50px;
+    margin: 30% 65%;
+}
+
+.B2 {
+    position: absolute;
+    display: block;
+    padding: 5px 25px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    max-width: 320px;
+    height: 40px;
+    margin-bottom: 60px;
+    overflow: hidden;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    letter-spacing: 2px;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    transition: all ease 0.5s;
+    background: #2fa155;
+    margin-top: 30%;
+}
+
+.B2:after,
+.Blog:before {
+    width: 80px;
+    height: 200px;
+    content: '';
+    display: block;
+    background: rgba(255, 255, 255, 0.5);
+    transform: rotate(45deg);
+    top: -60px;
+    position: absolute;
+    transition: none;
+    right: -45%;
+    cursor: pointer;
+}
+
+.B2:before {
+    left: -48%;
+}
+
+.Boton2:hover {
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    background: #07bb10;
+}
+
+.B2:hover:after,
+.Blog:hover::before {
+    transform: rotate(45deg), scaleX(130%);
+    background: rgba(255, 255, 255, 0.1);
+    transition: all ease 0.5s;
+}
+
+.B2:hover:after {
+    right: 130%;
+}
+
+.B2:hover:before {
+    left: 130%;
+}
+
+.B2 {
+    background-color: rgb(24, 69, 248);
+    width: 170px;
+    height: 45px;
+    margin: 40% 46.5%;
+}

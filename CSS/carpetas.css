@@ -1,0 +1,93 @@
+.form1 {
+    background-color: chartreuse;
+    width: 98%;
+    height: 50%;
+    padding: 1%;
+    text-align: center;
+    font-size: 220%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.option {
+    padding: 1%;
+    font-size: 120%;
+    margin: 5% 31.5%;
+    width: 15%;
+    text-align: center;
+}
+
+.obsers {
+    padding: 1%;
+    width: 15%;
+    margin: 5% -27%;
+    position: absolute;
+    font-size: 105%;
+    text-align: center;
+}
+
+.Button1 {
+    position: absolute;
+    display: block;
+    padding: 5px 25px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    max-width: 320px;
+    height: 40px;
+    margin-bottom: 60px;
+    overflow: hidden;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    letter-spacing: 2px;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    transition: all ease 0.5s;
+    background: #2fa155;
+    margin-top: 1%;
+}
+
+.Button1:after,
+.Button1:before {
+    width: 80px;
+    height: 200px;
+    content: '';
+    display: block;
+    background: rgba(255, 255, 255, 0.5);
+    transform: rotate(45deg);
+    top: -60px;
+    position: absolute;
+    transition: none;
+    right: -45%;
+    cursor: pointer;
+}
+
+.Button1:before {
+    left: -48%;
+}
+
+.Button1:hover {
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    background: #07bb10;
+}
+
+.Button1:hover:after,
+.Blog:hover::before {
+    transform: rotate(45deg), scaleX(130%);
+    background: rgba(255, 255, 255, 0.1);
+    transition: all ease 0.5s;
+}
+
+.Button1:hover:after {
+    right: 130%;
+}
+
+.Button1:hover:before {
+    left: 130%;
+}
+
+.Button1 {
+    background-color: rgb(24, 69, 248);
+    width: 160px;
+    height: 50px;
+    margin: 1% 45%;
+}

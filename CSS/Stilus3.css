@@ -1,0 +1,331 @@
+/*login¨*/
+
+.fondo1 {
+    width: 60%;
+    height: 110%;
+    margin-left: -500px;
+    border-radius: 100%;
+    position: absolute;
+    max-width: 100%;
+}
+
+.aguacate {
+    width: 50%;
+    height: 88%;
+    position: absolute;
+    z-index: 1;
+    margin-left: -20%;
+    border-radius: 0%;
+    margin-top: -20%;
+}
+
+.user {
+    width: 2%;
+    height: 4%;
+    margin-left: 70px;
+    margin-top: 1.7%;
+    border-radius: 1%;
+    position: absolute;
+    border-color: black;
+    max-width: 1000%;
+}
+
+img {
+    width: 10%;
+    height: 20%;
+    margin-left: 890px;
+    margin-top: -6.5%;
+    border-radius: 100%;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    max-width: 1000%;
+}
+
+.fondoo {
+    width: 20%;
+    height: 13%;
+    margin-left: 1370px;
+    margin-top: 3%;
+    border-radius: 0%;
+    position: absolute;
+    max-width: 100%;
+}
+
+form {
+    width: 350px;
+    height: 300px;
+    background-color: #048c44;
+    margin: calc(25% + 100px);
+    margin-top: 250px;
+    padding-top: 28px;
+    margin-bottom: 30px;
+    margin-left: 800px;
+    border-style: ridge;
+    border-radius: 4%;
+    max-width: 100%;
+}
+
+.form2 {
+    width: 350px;
+    height: 30px;
+    background-color: #048c44;
+    margin: calc(25% + 100px);
+    margin-top: 5px;
+    padding-top: 22px;
+    margin-bottom: 30px;
+    margin-left: 800px;
+    border-radius: 6%;
+    max-width: 100%;
+}
+
+.RFC {
+    background-color: beige;
+    padding: 2.2%;
+    font-size: 15px;
+    margin-left: 100px;
+    margin-top: 9.7%;
+    max-width: 100%;
+}
+
+.Blog {
+    position: relative;
+    display: block;
+    padding: 5px 35px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+    max-width: 320px;
+    height: 40px;
+    margin-bottom: 60px;
+    overflow: hidden;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    letter-spacing: 2px;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    transition: all ease 0.5s;
+    background: #2fa155;
+    margin-left: 30%;
+}
+
+.Blog:after,
+.Blog:before {
+    width: 80px;
+    height: 200px;
+    content: '';
+    display: block;
+    background: rgba(255, 255, 255, 0.5);
+    transform: rotate(45deg);
+    top: -60px;
+    position: absolute;
+    transition: none;
+    right: -45%;
+    cursor: pointer;
+}
+
+.Blog:before {
+    left: -48%;
+}
+
+.Blog:hover {
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    background: #0c6846
+}
+
+.Blog:hover:after,
+.Blog:hover::before {
+    transform: rotate(45deg), scaleX(130%);
+    background: rgba(255, 255, 255, 0.1);
+    transition: all ease 0.5s;
+}
+
+.Blog:hover:after {
+    right: 130%;
+}
+
+.Blog:hover:before {
+    left: 130%;
+}
+
+.Breg {
+    background-color: brown;
+    width: 90px;
+    height: 40px;
+    margin-left: 5px;
+}
+
+
+/*boton de productor*/
+
+.Blog2 {
+    position: relative;
+    display: block;
+    padding: 4px 8px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+    max-width: 320px;
+    height: 25px;
+    margin-bottom: 60px;
+    overflow: hidden;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    letter-spacing: 2px;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    transition: all ease 0.5s;
+    background: #2fa155;
+    margin-left: 60.7%;
+    margin-top: -2.5%;
+    font-size: 10px;
+    max-width: 100%;
+}
+
+.Blog2:after,
+.Blog:before {
+    width: 80px;
+    height: 200px;
+    content: '';
+    display: block;
+    background: rgba(255, 255, 255, 0.5);
+    transform: rotate(45deg);
+    top: -60px;
+    position: absolute;
+    transition: none;
+    right: -45%;
+    cursor: pointer;
+}
+
+.Blog2:before {
+    left: -48%;
+}
+
+.Blog2:hover {
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    background: #0c6846
+}
+
+.Blog2:hover:after,
+.Blog:hover::before {
+    transform: rotate(45deg), scaleX(130%);
+    background: rgba(255, 255, 255, 0.1);
+    transition: all ease 0.5s;
+}
+
+.Blog2:hover:after {
+    right: 130%;
+}
+
+.Blog2:hover:before {
+    left: 130%;
+}
+
+.Breg2 {
+    background-color: brown;
+    width: 90px;
+    height: 40px;
+    margin-left: 5px;
+    max-width: 100%;
+}
+
+label {
+    font-size: 18px;
+    margin-left: 3px;
+    color: #6bd19b;
+    position: absolute;
+    margin-top: -0.3%;
+    max-width: 100%;
+}
+
+.forgot {
+    font-size: 18px;
+    margin-left: 100px;
+    color: #6bd19b;
+    position: absolute;
+    margin-top: -2.5%;
+    max-width: 100%;
+}
+.reser {
+    font-size: 130%;
+    margin: 11% -5%;
+    color: black;
+}
+
+.ventanamodal::before {
+    transition-duration: 1s;
+}
+
+.modalDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+.modalDialog:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modalDialog>div {
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, rgb(209, 30, 30));
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+}
+
+.annunce {
+    margin-left: 3%;
+}
+
+.close {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+    text-align: center;
+    font-size: 50%;
+}
+
+.close:hover {
+    background: red;
+}
+
+.AV1 {
+    font-size: 115%;
+    position: absolute;
+    margin: -1% 4%;
+}
+
+.datos {
+    text-align: justify;
+}

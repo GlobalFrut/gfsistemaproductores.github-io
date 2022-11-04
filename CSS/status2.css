@@ -1,0 +1,398 @@
+.img {
+    margin-top: -1%;
+    margin: -1% 43%;
+    padding: 0.1%;
+    width: 10%;
+    position: absolute;
+}
+
+.img2 {
+    margin-top: 35%;
+    margin-left: 36%;
+    padding: 2%;
+    width: 25%;
+    position: absolute;
+}
+
+.img3 {
+    margin-top: 19.39%;
+    margin-left: 24.1%;
+    padding: 2%;
+    width: 11.5%;
+    position: absolute;
+}
+
+.img4 {
+    margin-top: 18.8%;
+    margin-left: 52.19%;
+    padding: 2%;
+    width: 14%;
+    position: absolute;
+    background-color: #ffffff;
+}
+
+.FormBienvenida2 {
+    margin-left: 50%;
+    letter-spacing: 3px;
+    font-size: 300%;
+    margin-left: 38%;
+    width: 400px;
+    height: 400px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.F1 {
+    background-color: #07bb10;
+    text-align: justify;
+}
+
+.FormBienvenida {
+    background-color: #07bb10;
+    width: 100%;
+    height: 108px;
+    padding: 2px;
+    margin-top: 8%;
+    font-size: 300%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    text-size-adjust: initial;
+    position: absolute;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.Boton1 {
+    position: absolute;
+    display: block;
+    padding: 5px 25px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    max-width: 320px;
+    height: 40px;
+    margin-bottom: 60px;
+    overflow: hidden;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    letter-spacing: 2px;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    transition: all ease 0.5s;
+    background: #2fa155;
+    margin-top: 30%;
+}
+
+.Boton1:after,
+.Blog:before {
+    width: 80px;
+    height: 200px;
+    content: '';
+    display: block;
+    background: rgba(255, 255, 255, 0.5);
+    transform: rotate(45deg);
+    top: -60px;
+    position: absolute;
+    transition: none;
+    right: -45%;
+    cursor: pointer;
+}
+
+.Boton1:before {
+    left: -48%;
+}
+
+.Boton1:hover {
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    background: #07bb10;
+}
+
+.Boton1:hover:after,
+.Blog:hover::before {
+    transform: rotate(45deg), scaleX(130%);
+    background: rgba(255, 255, 255, 0.1);
+    transition: all ease 0.5s;
+}
+
+.Boton1:hover:after {
+    right: 130%;
+}
+
+.Boton1:hover:before {
+    left: 130%;
+}
+
+.Boton1 {
+    background-color: rgb(24, 69, 248);
+    width: 250px;
+    height: 50px;
+    margin: 30% 25%;
+}
+
+.Boton2 {
+    position: absolute;
+    display: block;
+    padding: 5px 25px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    max-width: 320px;
+    height: 40px;
+    margin-bottom: 60px;
+    overflow: hidden;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    letter-spacing: 2px;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    transition: all ease 0.5s;
+    background: #2fa155;
+    margin-top: 30%;
+}
+
+.Boton2:after,
+.Blog:before {
+    width: 80px;
+    height: 200px;
+    content: '';
+    display: block;
+    background: rgba(255, 255, 255, 0.5);
+    transform: rotate(45deg);
+    top: -60px;
+    position: absolute;
+    transition: none;
+    right: -45%;
+    cursor: pointer;
+}
+
+.Boton2:before {
+    left: -48%;
+}
+
+.Boton2:hover {
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    background: #07bb10;
+}
+
+.Boton2:hover:after,
+.Blog:hover::before {
+    transform: rotate(45deg), scaleX(130%);
+    background: rgba(255, 255, 255, 0.1);
+    transition: all ease 0.5s;
+}
+
+.Boton2:hover:after {
+    right: 130%;
+}
+
+.Boton2:hover:before {
+    left: 130%;
+}
+
+.Boton2 {
+    background-color: rgb(24, 69, 248);
+    width: 250px;
+    height: 50px;
+    margin: 30% 55%;
+}
+
+.NumCar {
+    padding: 1%;
+    width: 20%;
+    margin: 16% 40%;
+    text-align: center;
+    font-size: 150%;
+}
+
+table {
+    background-color: #07bb10;
+    width: 52%;
+    text-align: center;
+    margin-left: 24%;
+    border-collapse: collapse;
+    margin-top: -10%;
+}
+
+.jeje {
+    border: solid 3px #000085;
+}
+
+.je {
+    border: solid 0px #000085;
+}
+
+th,
+td {
+    padding: 20px;
+}
+
+.thead {
+    background-color: #ffffff;
+    border-bottom: solid 5px #ffffff;
+    color: white;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(255, 255, 255);
+}
+
+tr:hover td {
+    background-color: #000085;
+    color: rgb(255, 255, 255);
+}
+
+.botons {
+    background-color: #000085;
+    margin-left: 100px;
+}
+
+.botones {
+    color: #000000;
+}
+
+.rell {
+    background-color: #45b345;
+    width: 4%;
+    height: 4%;
+    text-align: center;
+    margin-left: 6%;
+    border: solid 2px #000085;
+}
+
+.Boton22 {
+    position: absolute;
+    display: block;
+    padding: 5px 25px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    max-width: 320px;
+    height: 40px;
+    margin-bottom: 60px;
+    overflow: hidden;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    letter-spacing: 2px;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    transition: all ease 0.5s;
+    background: #2fa155;
+    margin-top: 1%;
+}
+
+.Boton22:after,
+.Blog:before {
+    width: 80px;
+    height: 200px;
+    content: '';
+    display: block;
+    background: rgba(255, 255, 255, 0.5);
+    transform: rotate(45deg);
+    top: -60px;
+    position: absolute;
+    transition: none;
+    right: -45%;
+    cursor: pointer;
+}
+
+.Boton22:before {
+    left: -48%;
+}
+
+.Boton22:hover {
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    background: #07bb10;
+}
+
+.Boton22:hover:after,
+.Blog:hover::before {
+    transform: rotate(45deg), scaleX(130%);
+    background: rgba(255, 255, 255, 0.1);
+    transition: all ease 0.5s;
+}
+
+.Boton22:hover:after {
+    right: 130%;
+}
+
+.Boton22:hover:before {
+    left: 130%;
+}
+
+.Boton22 {
+    background-color: rgb(24, 69, 248);
+    width: 250px;
+    height: 50px;
+    margin: -15% 44.5%;
+}
+
+.Button1 {
+    position: absolute;
+    display: block;
+    padding: 5px 25px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    max-width: 320px;
+    height: 40px;
+    margin-bottom: 60px;
+    overflow: hidden;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    letter-spacing: 2px;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    transition: all ease 0.5s;
+    background: #2fa155;
+    margin-top: 1%;
+}
+
+.Button1:after,
+.Blog:before {
+    width: 80px;
+    height: 200px;
+    content: '';
+    display: block;
+    background: rgba(255, 255, 255, 0.5);
+    transform: rotate(45deg);
+    top: -60px;
+    position: absolute;
+    transition: none;
+    right: -45%;
+    cursor: pointer;
+}
+
+.Button1:before {
+    left: -48%;
+}
+
+.Button1:hover {
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    background: #07bb10;
+}
+
+.Button1:hover:after,
+.Blog:hover::before {
+    transform: rotate(45deg), scaleX(130%);
+    background: rgba(255, 255, 255, 0.1);
+    transition: all ease 0.5s;
+}
+
+.Button1:hover:after {
+    right: 130%;
+}
+
+.Button1:hover:before {
+    left: 130%;
+}
+
+.Button1 {
+    background-color: rgb(24, 69, 248);
+    width: 160px;
+    height: 35px;
+    margin: -29% 47%;
+}

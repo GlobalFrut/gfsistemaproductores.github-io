@@ -1,0 +1,360 @@
+body{
+    font-size: 100%;
+
+}
+.GF{
+	padding: 3%;
+	
+	width: 10%;
+	margin: 10% 5%;
+}
+.files{
+	background-color: #2fa155;
+	width: 400px;
+	height: 200px;
+	position: absolute;
+	margin-left: 26.4%;
+	margin-top: -26%;
+
+}
+.arch{
+	margin-top: 5%;
+	font-size: 10px;
+	margin-left: 10%;
+}
+
+.lotex{
+	width: 55%;
+	height: 5%;
+	margin-top: 0.5%;
+	margin-left: 23.5%;
+	padding: 2.5%;
+	text-align: center;
+	font-size: 140%;
+	
+}
+.lotex2{
+	width: 55%;
+	height: 5%;
+	margin-top: -2%;
+	margin-left: 23.5%;
+	padding: 2.5%;
+	text-align: center;
+	font-size: 140%;
+	
+}
+
+.FormBienvenida{
+    background-color: #07bb10;
+    width: 100%;
+    padding: 0.3%;
+    box-shadow: 10px 5px 5px rgb(204, 200, 200);
+	text-align: center;
+	font-size: 350%;
+	letter-spacing: 2.5px;
+}
+
+.aviso{
+	margin-left: 22%;
+}
+.datos{
+	text-align: center;
+}
+
+.bien2{
+    font-size: 100%;
+
+}
+.FormIzquierda{
+    background-color: #ffffff;
+	box-shadow:1px 1px 2px rgb(0, 0, 0);
+    width: 900px;
+    height: 300px;
+	margin: 1% 22.5%;
+	padding: 4%;
+}
+.Productor{
+    margin-left: 38%;
+	font-size: 30px;
+}
+.paneles{
+    background-color: aqua;
+    height: 20%;
+    width: 20%;
+    padding: 20%;
+}
+.ventanamodal::before{
+    transition-duration: 1s;
+}
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+.modalDialog > div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
+  -webkit-transition: opacity 400ms ease-in;
+-moz-transition: opacity 400ms ease-in;
+transition: opacity 400ms ease-in;
+}
+.annunce{
+	margin-left: 3%;
+}
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+    text-align: center;
+    font-size: 50%;
+}
+.close:hover { background: #00d9ff; }
+
+.modalDialog2 {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+	
+}
+.modalDialog2:target {
+	opacity:1;
+	pointer-events: auto;
+}
+.modalDialog2 > div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
+  -webkit-transition: opacity 400ms ease-in;
+-moz-transition: opacity 400ms ease-in;
+transition: opacity 400ms ease-in;
+}
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+    text-align: center;
+    font-size: 50%;
+}
+.close:hover { background: #00d9ff; }
+
+.Blog2{
+    position: absolute;
+	display: block;
+	padding: 5px 25px;
+	border-radius: 10px;
+	text-align: center;
+	font-weight: bold;
+	max-width: 320px;
+	height: 40px;
+	margin-bottom: 60px;
+	overflow: hidden;
+	color:rgba(255,255,255,1);
+	cursor: pointer;
+	letter-spacing: 2px;
+	box-shadow:inset 0 0 0 1px rgba(0,0,0,0.1);
+	text-decoration: none;
+	transition: all ease 0.5s;
+	background:#2fa155;
+    margin-left: 400px;
+	margin-top: 0.5%;
+    
+    
+}
+.Blog2:after,.Blog:before{
+	width: 80px;
+	height: 200px;
+	content: '';
+	display: block;
+	background: rgba(255,255,255,0.5);
+	transform: rotate(45deg);
+	top: -60px;
+	position: absolute;
+	transition: none;
+	right:-45%;
+	cursor: pointer;
+
+}
+.Blog2:before{
+	left: -48%;
+}
+.Blog2:hover{
+    text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+	background:#07bb10;
+}
+.Blog2:hover:after,.Blog:hover::before{
+	transform: rotate(45deg), scaleX(130%);
+	background: rgba(255,255,255,0.1);
+	transition: all ease 0.5s;
+}
+.Blog2:hover:after{
+    right: 130%;
+}
+.Blog2:hover:before{
+    left: 130%;
+}
+.Breg2{
+    background-color: brown;
+    width: 90px;
+    height: 40px;
+    margin-left: 5px; 
+}
+
+.Blog3{
+    position: absolute;
+	display: block;
+	padding: 5px 25px;
+	border-radius: 10px;
+	text-align: center;
+	font-weight: bold;
+	max-width: 320px;
+	height: 40px;
+	margin-bottom: 60px;
+	overflow: hidden;
+	color:rgba(255,255,255,1);
+	cursor: pointer;
+	letter-spacing: 2px;
+	box-shadow:inset 0 0 0 1px rgba(0,0,0,0.1);
+	text-decoration: none;
+	transition: all ease 0.5s;
+	background:#2fa155;
+    margin-left: 955px;
+	margin-top: -5%;
+    
+    
+}
+.Blog3:after,.Blog:before{
+	width: 80px;
+	height: 200px;
+	content: '';
+	display: block;
+	background: rgba(255,255,255,0.5);
+	transform: rotate(45deg);
+	top: -60px;
+	position: absolute;
+	transition: none;
+	right:-45%;
+	cursor: pointer;
+
+}
+.Blog3:before{
+	left: -48%;
+}
+.Blog3:hover{
+    text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+	background:#07bb10;
+}
+.Blog3:hover:after,.Blog:hover::before{
+	transform: rotate(45deg), scaleX(130%);
+	background: rgba(255,255,255,0.1);
+	transition: all ease 0.5s;
+}
+.Blog3:hover:after{
+    right: 130%;
+}
+.Blog3:hover:before{
+    left: 130%;
+}
+.Breg3{
+    background-color: brown;
+    width: 90px;
+    height: 40px;
+    margin-left: 5px; 
+}
+.AV1{
+	font-size: 150%;
+	
+	position: absolute;
+	
+	margin: -5% -1%;
+
+}
+.AV2{
+	font-size: 150%;
+	
+	position: absolute;
+	
+	margin: -7% 19.2%;
+
+}
+
+
+.AV3 {
+    font-size: 150%;
+    position: absolute;
+    margin: -3% 38%;
+}
+
+.AV4 {
+    font-size: 150%;
+    position: absolute;
+    margin: -3% 13%;
+}
+
+.AV5 {
+    font-size: 150%;
+    position: absolute;
+    margin: -3% 65%;
+}
